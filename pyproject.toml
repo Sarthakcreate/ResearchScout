@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "get-papers-list"
+version = "2.1.3"
+description = "CLI for fetching PubMed papers with pharma/biotech authors."
+authors = ["Sarthak Mangalmurti sarthakmangalmurti@gmail.com"]
+readme = "README.md"
+packages = [{ include = "get_papers" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+pandas   = "^2.2.2"
+typer = "^0.16.0"
+streamlit = "^1.46.1"
+
+[tool.poetry.scripts]
+get-papers-list = "cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
