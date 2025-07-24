@@ -120,6 +120,6 @@ AI/ML Developer | Data Science Professional | ML Engineer
 
 ## ⭐ If You Like It
 
-If you found this useful, don’t forget to **star ⭐ the repo** and share it with fellow AI/Pharma enthusiasts!
+If you found this useful, don’t forget to **star ⭐ the repo** and share it with fellow AI enthusiasts!
 
 ---
